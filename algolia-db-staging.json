@@ -1,0 +1,38 @@
+[
+  {
+    "item": "White and blue Upstate Farms Yogurt Cup plastic polypropylene PP #5",
+    "type" : "Plastic",
+    "sub-type": "polypropylene",
+    "recycle": true
+  },
+  {
+    "item": "Rumford baking powder container paper coated paperboard",
+    "type" : "Paper",
+    "sub-type": "Coated paperboard",
+    "recycle": false
+  },
+  {
+    "item": "Round plastic container, clear, with label high density polyethylene HDPE #2",
+    "type" : "Plastic",
+    "sub-type": "Paperboard",
+    "recycle": true
+  },
+  {
+    "item": "Plastic cup lid",
+    "type" : "Plastic",
+    "sub-type": "Paperboard",
+    "recycle": true
+  },
+  {
+    "item": "Straw",
+    "type" : "Plastic",
+    "sub-type": "Coated paperboard",
+    "recycle": false
+  },
+  {
+    "item": "Clear and blue plastic small toy capsule",
+    "type" : "Plastic",
+    "sub-type": "Tetrapak",
+    "recycle": false
+  }
+]

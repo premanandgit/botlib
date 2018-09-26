@@ -1,0 +1,14 @@
+{
+  "greets": ["hi", "hii", "hiii", "hiiii", "hiiiii", "hiiiiii", "hey", "heyy", "hello", "reply", "test", "testing", "dai",
+    "buddy", "bud", "ji", "hungry", "answer pls", "pls answer", "answer please", "please answer", "heya",
+    "hellooo", "helloo", "heloo", "hell", "ans pls", "pls ans", "ans please", "please ans",
+    "bruh", "hey", "hie", "wassup", "oye",
+    "hui", "sup", "bro", "sup", "bro", "heylo",
+    "namaste", "namasthe", "namasthey", "aloha", "ahoy",
+    "ahoyy", "ahoy mate", "hi mate", "ciao",
+    "guten tag", "bonjour", "bonjur", "hola",
+    "olaa", "ola", "hallo", "halo", "salaam",
+    "salam", "ohayo", "konichiwa", "konnichiwa",
+    "marhaba", "merhaba", "ni hau", "mate"
+  ]
+}

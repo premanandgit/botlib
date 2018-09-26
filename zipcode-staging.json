@@ -1,0 +1,22 @@
+[
+  {
+    "name": "country1",
+    "zipcode": "30601"
+  },
+  {
+    "name": "country2",
+    "zipcode": "30602"
+  },
+  {
+    "name": "country3",
+    "zipcode": "30603"
+  },
+  {
+    "name": "country4",
+    "zipcode": "30604"
+  },
+  {
+    "name": "country5",
+    "zipcode": "30605"
+  }
+]

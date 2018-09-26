@@ -1,0 +1,12 @@
+const BotRouter = require('./bot-router')
+const botMessenger = require('./bot-messenger')
+const FBMessenger = require('./fb')
+const YaliNLP = require('./yali-nlp')
+const customerSession = require('./customer-session')
+const Algolia = require('./algolia')
+exports.BotRouter = BotRouter
+exports.botMessenger = botMessenger
+exports.YaliNLP = YaliNLP
+exports.customerSession = customerSession
+exports.Algolia = Algolia
+exports.FBMessenger = FBMessenger
