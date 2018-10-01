@@ -1,38 +1,1142 @@
 [
   {
     "item": "White and blue Upstate Farms Yogurt Cup plastic polypropylene PP #5",
-    "type" : "Plastic",
+    "type": "Plastic",
     "sub-type": "polypropylene",
     "recycle": true
   },
   {
     "item": "Rumford baking powder container paper coated paperboard",
-    "type" : "Paper",
+    "type": "Paper",
     "sub-type": "Coated paperboard",
     "recycle": false
   },
   {
     "item": "Round plastic container, clear, with label high density polyethylene HDPE #2",
-    "type" : "Plastic",
-    "sub-type": "Paperboard",
+    "type": "Plastic",
+    "sub-type": "high-density polyethylene",
     "recycle": true
   },
   {
-    "item": "Plastic cup lid",
-    "type" : "Plastic",
-    "sub-type": "Paperboard",
-    "recycle": true
+    "item": "Clear and blue plastic small toy capsule",
+    "type": "Plastic",
+    "sub-type": "polyvinyl chloride",
+    "recycle": false
   },
   {
-    "item": "Straw",
-    "type" : "Plastic",
+    "item": "Black and white disposable cup",
+    "type": "Paper",
     "sub-type": "Coated paperboard",
     "recycle": false
   },
   {
-    "item": "Clear and blue plastic small toy capsule",
-    "type" : "Plastic",
+    "item": "Straw",
+    "type": "Plastic",
+    "sub-type": "low-density polyethylene",
+    "recycle": false
+  },
+  {
+    "item": "Andalou Naturals Plastic tube bottle",
+    "type": "Plastic",
+    "sub-type": "high-density polyethylene",
+    "recycle": true
+  },
+  {
+    "item": "Greenwise dried apple rings pack, wrapper, bag",
+    "type": "Plastic",
+    "sub-type": "low-density polyethylene",
+    "recycle": false
+  },
+  {
+    "item": "White morning Fresh Cream Tetrapak, Tetra Pack",
+    "type": "Paper",
     "sub-type": "Tetrapak",
+    "recycle": true
+  },
+  {
+    "item": "Soda can",
+    "type": "Metal",
+    "sub-type": "Aluminum",
+    "recycle": true
+  },
+  {
+    "item": "Aluminum can",
+    "type": "Metal",
+    "sub-type": "Aluminum",
+    "recycle": true
+  },
+  {
+    "item": "Clear disposable plastic cup and lid",
+    "type": "Plastic",
+    "sub-type": "high-density polyethylene",
+    "recycle": true
+  },
+  {
+    "item": "Solo cup",
+    "type": "Plastic",
+    "sub-type": "polystyrene",
+    "recycle": true
+  },
+  {
+    "item": "Plastic cup lid",
+    "type": "Plastic",
+    "sub-type": "high-density polyethylene",
+    "recycle": true
+  },
+  {
+    "item": "Coffee cup lid",
+    "type": "Plastic",
+    "sub-type": "polystyrene",
+    "recycle": true
+  },
+  {
+    "item": "Jersey Mike's disposable cup",
+    "type": "Paper",
+    "sub-type": "Coated paperboard",
+    "recycle": false
+  },
+  {
+    "item": "Oikos plastic cup, yogurt",
+    "type": "Plastic",
+    "sub-type": "polypropylene",
+    "recycle": true
+  },
+  {
+    "item": "Natalie's Blood Orange Plastic bottle, juice",
+    "type": "Plastic",
+    "sub-type": "high-density polyethylene",
+    "recycle": true
+  },
+  {
+    "item": "Clear plastic to-go container, clamshell",
+    "type": "Plastic",
+    "sub-type": "polyethylene terephthalate",
+    "recycle": true
+  },
+  {
+    "item": "Coffee cup sleeve",
+    "type": "Paper",
+    "sub-type": "Paperboard",
+    "recycle": true
+  },
+  {
+    "item": "Cereal box",
+    "type": "Paper",
+    "sub-type": "Paperboard",
+    "recycle": true
+  },
+  {
+    "item": "Eco-lid container",
+    "type": "Plastic",
+    "sub-type": "other plastics",
+    "recycle": false
+  },
+  {
+    "item": "Brookside chocolate pack",
+    "type": "Plastic",
+    "sub-type": "high-density polyethylene",
+    "recycle": false
+  },
+  {
+    "item": "Mission corn chip bag",
+    "type": "Paper",
+    "sub-type": "Coated paperboard",
+    "recycle": false
+  },
+  {
+    "item": "Silver can",
+    "type": "Metal",
+    "sub-type": "Aluminum",
+    "recycle": true
+  },
+  {
+    "item": "Canned vegetables, soup, fruit",
+    "type": "Metal",
+    "sub-type": "Steel",
+    "recycle": true
+  },
+  {
+    "item": "Gordo's cheese dip container",
+    "type": "Plastic",
+    "sub-type": "high-density polyethylene",
+    "recycle": true
+  },
+  {
+    "item": "Brown easy-open can",
+    "type": "Metal",
+    "sub-type": "Aluminum",
+    "recycle": true
+  },
+  {
+    "item": "Canned food",
+    "type": "Metal",
+    "sub-type": "Steel",
+    "recycle": true
+  },
+  {
+    "item": "Chip, crisp, food bag or pack (film)",
+    "type": "Plastic",
+    "sub-type": "high-density polyethylene",
+    "recycle": false
+  },
+  {
+    "item": "Clear plastic diet Coke bottle polyethylene terephthalate PET #1",
+    "type": "Plastic",
+    "sub-type": "polyethylene terephthalate",
+    "recycle": true
+  },
+  {
+    "item": "Old Fashioned Oats container (oatmeal)",
+    "type": "Paper",
+    "sub-type": "high-density polyethylene",
+    "recycle": false
+  },
+  {
+    "item": "Food packs, bags",
+    "type": "Plastic",
+    "sub-type": "high-density polyethylene",
+    "recycle": false
+  },
+  {
+    "item": "Plastic bag",
+    "type": "Plastic",
+    "sub-type": "low-density polyethylene",
+    "recycle": false
+  },
+  {
+    "item": "Cardboard box",
+    "type": "Cardboard",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Clif Bar wrapper, pack",
+    "type": "Plastic",
+    "sub-type": "high-density polyethylene",
+    "recycle": false
+  },
+  {
+    "item": "Whit rice pack",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Wlch's mixed fruit pack",
+    "type": "Plastic",
+    "sub-type": "high-density polyethylene",
+    "recycle": false
+  },
+  {
+    "item": "Chicken broth carton, box",
+    "type": "Paper",
+    "sub-type": "Tetrapak",
+    "recycle": true
+  },
+  {
+    "item": "California Basmati rice pack",
+    "type": "Plastic",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Noosa Vanilla Bean Cup",
+    "type": "Plastic",
+    "sub-type": "polypropylene",
+    "recycle": true
+  },
+  {
+    "item": "3 oz. honey jar",
+    "type": "Other",
+    "sub-type": "Clear",
+    "recycle": true
+  },
+  {
+    "item": "La Croix Box",
+    "type": "Paper",
+    "sub-type": "Paperboard",
+    "recycle": true
+  },
+  {
+    "item": "Plastic Bag",
+    "type": "Plastic",
+    "sub-type": "low-density polyethylene",
+    "recycle": false
+  },
+  {
+    "item": "Magazine",
+    "type": "Paper",
+    "sub-type": "Office paper",
+    "recycle": true
+  },
+  {
+    "item": "Newspaper",
+    "type": "Paper",
+    "sub-type": "Newspaper",
+    "recycle": true
+  },
+  {
+    "item": "Styrofoam cup, expanded polystyrene, EPS",
+    "type": "Plastic",
+    "sub-type": "polystyrene",
+    "recycle": false
+  },
+  {
+    "item": "Styrofoam plate",
+    "type": "Plastic",
+    "sub-type": "high-density polyethylene",
+    "recycle": false
+  },
+  {
+    "item": "Plastic fork",
+    "type": "Plastic",
+    "sub-type": "other plastics",
+    "recycle": false
+  },
+  {
+    "item": "Plastic utensils",
+    "type": "Plastic",
+    "sub-type": "other plastics",
+    "recycle": false
+  },
+  {
+    "item": "Plastic spoon",
+    "type": "Plastic",
+    "sub-type": "other plastics",
+    "recycle": false
+  },
+  {
+    "item": "Plastic knife",
+    "type": "Plastic",
+    "sub-type": "other plastics",
+    "recycle": false
+  },
+  {
+    "item": "Plastic peanuts container",
+    "type": "Plastic",
+    "sub-type": "polyethylene terephthalate",
+    "recycle": true
+  },
+  {
+    "item": "KIND Plastic Food Wrapper",
+    "type": "Plastic",
+    "sub-type": "low-density polyethylene",
+    "recycle": false
+  },
+  {
+    "item": "Kroger Plastic Water Bottle",
+    "type": "Plastic",
+    "sub-type": "polyethylene terephthalate",
+    "recycle": true
+  },
+  {
+    "item": "Plastic Coffee cup with lid and straw",
+    "type": "Paper",
+    "sub-type": "low-density polyethylene",
+    "recycle": false
+  },
+  {
+    "item": "Aluminum can",
+    "type": "Plastic",
+    "sub-type": "Aluminum",
+    "recycle": true
+  },
+  {
+    "item": "Aluminum coated plastic food wrapper",
+    "type": "Plastic",
+    "sub-type": "low-density polyethylene",
+    "recycle": true
+  },
+  {
+    "item": "Pizza Box - No grease",
+    "type": "Cardboard",
+    "sub-type": "Newspaper",
+    "recycle": true
+  },
+  {
+    "item": "Pizza Box - Bottom Greasy",
+    "type": "Cardboard",
+    "sub-type": "Newspaper",
+    "recycle": true
+  },
+  {
+    "item": "Pizza Box - Top and Bottom Greasy",
+    "type": "Cardboard",
+    "sub-type": "Newspaper",
+    "recycle": false
+  },
+  {
+    "item": "Tennis Ball Container",
+    "type": "Plastic",
+    "sub-type": "polyethylene terephthalate",
+    "recycle": false
+  },
+  {
+    "item": "Tennis Ball",
+    "type": "Plastic",
+    "sub-type": "other plastics",
+    "recycle": false
+  },
+  {
+    "item": "Shredded Paper",
+    "type": "Paper",
+    "sub-type": "Office paper",
+    "recycle": false
+  },
+  {
+    "item": "Paper Envelope with plastic window",
+    "type": "Paper",
+    "sub-type": "Office paper",
+    "recycle": true
+  },
+  {
+    "item": "Paper envelope",
+    "type": "Paper",
+    "sub-type": "Office paper",
+    "recycle": true
+  },
+  {
+    "item": "Magazine",
+    "type": "Paper",
+    "sub-type": "Office paper",
+    "recycle": true
+  },
+  {
+    "item": "Phone Book",
+    "type": "Paper",
+    "sub-type": "Office paper",
+    "recycle": true
+  },
+  {
+    "item": "Steel aerosol can",
+    "type": "Metal",
+    "sub-type": "Steel",
+    "recycle": true
+  },
+  {
+    "item": "Aluminum foil",
+    "type": "Metal",
+    "sub-type": "Aluminum",
+    "recycle": true
+  },
+  {
+    "item": "Wax paper",
+    "type": "Paper",
+    "sub-type": "Coated paperboard",
+    "recycle": false
+  },
+  {
+    "item": "Cracker box",
+    "type": "Paper",
+    "sub-type": "Paperboard",
+    "recycle": true
+  },
+  {
+    "item": "Plastic beverage bottle",
+    "type": "Plastic",
+    "sub-type": "polyethylene terephthalate ",
+    "recycle": true
+  },
+  {
+    "item": "Ridgid plastic",
+    "type": "Plastic",
+    "sub-type": "high - density polyethylene ",
+    "recycle": true
+  },
+  {
+    "item": "Shampoo bottle",
+    "type": "Plastic",
+    "sub-type": "high-density polyethylene",
+    "recycle": true
+  },
+  {
+    "item": "Fresh Market Guacamole Container",
+    "type": "Plastic",
+    "sub-type": "other plastics",
+    "recycle": false
+  },
+  {
+    "item": "Strollers",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Car seats",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Greasy paper",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Soiled paper",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Air conditioner",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Dehumidifier",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Paper items",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Kitchen tools",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "BBQ grill",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Large metal items",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Hoses",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Rope",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Clothesline",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Electrical cord",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Air purifiere",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Vaporizer",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Toilet",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Bathtub",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Box fan",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Electrical fan",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Heater",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Ping pong table",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Fuseball table",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Pool table",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Game table",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Car",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Truck",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Toy car",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Toy truck",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Toy",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Broken glass",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Drinking glass",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Dead animals",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Plastic grocery bags",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Firearms",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Guns",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Ammunition",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Furniture",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Chair",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Sofa",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Table",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Pet bed",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Pet toy",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Clothing",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Fabric",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Box spring",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Mattress",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Lighters",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Books",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Magazines",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Catelogs",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Directories",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Phonebooks",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Notepads",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Decorative items",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Matches",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Boots",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Shoes",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Sandals",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Slippers",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Religious items",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Plastic jug",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Plastic jar",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Bicycle",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Bike",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Tricycle",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Scooter",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Battery",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Food",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Musical instrument",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Satellite dish",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Cardboard carton",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Gift card",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Gift bag",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Wrapping paper",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Glass bottle",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Glass jar",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Medical supplies",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "First aid supplies",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Plates",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Dishes",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Bowls",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Mugs",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Video games",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Game systems",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Audio and video items",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Plastic bucket",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "CD",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "DVD",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Cassette tapes",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "VCR tapes",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Digital camera",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Video camera",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Credit cards",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Gift card (plastic)",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Plastic jewel case",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Light bulbs",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Aerosol can",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Sports equipment",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Sporting goods",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Cardboard spiral can",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Pringles can",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Frozen juice can",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Crescent roll wrapper",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Metal beverage can",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Metal can",
+    "type": "",
+    "sub-type": "",
+    "recycle": true
+  },
+  {
+    "item": "Plastic pail",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Plastic basket",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Suitecase",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Trunk",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Chest",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Power cord",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Charger",
+    "type": "",
+    "sub-type": "",
+    "recycle": false
+  },
+  {
+    "item": "Cable",
+    "type": "",
+    "sub-type": "",
     "recycle": false
   }
 ]

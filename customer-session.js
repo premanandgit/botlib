@@ -25,7 +25,8 @@ class customerSession {
     } else {
       let profile = await this.getProfile(customerId)
       let newCustomer = await getCustomer(customerId, profile)
-      let success = cacheSessions.set(customerId, newCustomer, 100);
+      // let success = cacheSessions.set(customerId, newCustomer, 100);
+      let success = cacheSessions.set(customerId, newCustomer);
       if (!success) {
         console.log(`Unable to cache customer ${customerId}`)
         return null
@@ -39,11 +40,13 @@ class customerSession {
     try {
       let customer = cacheSessions.get(customerId, true);
       if(customer) {
-        cacheSessions.ttl( customerId, 100, ( err, changed ) => {
-          if( err ){
-            console.log( `Unable to extend the customer session ${customerId}` ); // true
-          }
-        })
+        // cacheSessions.ttl( customerId, 100, ( err, changed ) => {
+        //   if( err ){
+        //     console.log( `Unable to extend the customer session ${customerId}` ); // true
+        //   } else {
+        //     console.log( `Extended the customer session ${customerId}` );
+        //   }
+        // })
         return customer
       }
       return null

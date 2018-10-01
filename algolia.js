@@ -32,7 +32,6 @@ class Algolia {
 
 	async isRecyclable(text) {
 		let content = await this.search(text, "recycleIndex")
-		console.log('recycle content ', content)
 		if (_.isEmpty(content || content.hits) || content.hits.length <= 0) {
 			return ({
 				recycle: null,
@@ -48,6 +47,14 @@ class Algolia {
 			})
 		}
 		else if (content.hits.length > 1) {
+			if(content.hits[0].item.toLowerCase() === text.toLowerCase()) {
+				return ({
+					recycle: content.hits[0].recycle === true ? true : false,
+					count: content.hits.length,
+					hits: content.hits
+				})
+			}
+
 			return ({
 				recycle: null,
 				count: content.hits.length,
@@ -58,7 +65,6 @@ class Algolia {
 
 	async isValidZipcode(zipcode) {
 		let content = await this.search(zipcode, "zipcodeIndex")
-		console.log('zip content ', content)
 		if (_.isEmpty(content || content.hits) || content.hits.length <= 0)
 			return null;
 		else {
