@@ -10,5 +10,6 @@
     "olaa", "ola", "hallo", "halo", "salaam",
     "salam", "ohayo", "konichiwa", "konnichiwa",
     "marhaba", "merhaba", "ni hau", "mate"
-  ]
+  ],
+  "actions": ["addmenu", "removemenu"]
 }
