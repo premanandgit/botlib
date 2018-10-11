@@ -1,12 +1,13 @@
 const fetch = require('node-fetch')
 const _ = require('lodash')
 const moment = require('moment')
+const config = require('./config')
 
 class Yali {
 	constructor() {
-		this.token = "yoday P8jLCHfhP8rOKGgjxC39+fKcf3Too0zQRmMEoYVT1yYRuQ2Plb+AYXON5TUKcnOmSApH+UOFQhSogm4QPVh8RQ==_LMO2l8gy7OrrwK6+Jvm43faPJsHOdTuA/ASQxsgpSc/Ry0CXe0yIGsN16Wo1D96inyQfMb7n62beMFexVQx+Bo2qBc3sgf+KJcutcPCcpZA="
-		this.baseUrl = "http://yodaystagingwebapi.azurewebsites.net"
-		this.yodayOnline = "http://yodaystagingonline.azurewebsites.net"
+		this.token = config.getYaliToken()
+		this.baseUrl = config.getYaliWebUrl()
+		this.yodayOnline = config.getYaliOnlineUrl()
 	}
 
 	getCategory(businessId) {

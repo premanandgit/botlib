@@ -1,3 +1,4 @@
+const Config = require('./config')
 const BotRouter = require('./bot-router')
 const botMessenger = require('./bot-messenger')
 const FBMessenger = require('./fb')
@@ -7,6 +8,7 @@ const Algolia = require('./algolia')
 const DialogFlow = require('./dialogflow')
 const otp = require('./otp')
 const YaliService = require('./yali-service')
+exports.Config = Config
 exports.BotRouter = BotRouter
 exports.botMessenger = botMessenger
 exports.YaliNLP = YaliNLP

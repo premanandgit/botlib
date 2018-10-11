@@ -1,17 +1,29 @@
+require('dotenv').config()
+
 module.exports = class config {
 	static getBotName() {
-		return process.env.BOT_NAME || 'Green Girl'
+		return process.env.BOT_NAME
 	}
 	static getPageToken() {
-		return process.env.PAGE_ACCESS_TOKEN || 'EAAHMBZB4zZA2EBAOHoafox65ZBppjZA6F1zGN0FsxQC8umzIKp7pFIuMjc4kxzaxqzoXBDZCM5skZCuQXGpK6gsIRF8dZAqQ1VabU2yIkuZBbZBDDoXmrKNywIX15KZBXM8eZA2l7rfqk4LvPLJqQVyjp5RHdgjj1XeRX1uyDGi5uC08QZDZD'
+		return process.env.PAGE_ACCESS_TOKEN
 	}
 	static getPort() {
-		return process.env.PORT || 3000
+		return process.env.PORT
 	}
 	static getHubVerifyToken() {
-		return process.env.HUB_VERIFY_TOKEN || 'yali_food_bot'
+		return process.env.HUB_VERIFY_TOKEN
 	}
 	static getDialogflowId() {
-		return process.env.DIALOG_FLOW_ID || 'cirt-50caa'
+		// return process.env.DIALOG_FLOW_ID || 'cirt-50caa'
+		return process.env.DIALOG_FLOW_ID
+	}
+	static getYaliToken() {
+		return process.env.YALI_TOKEN
+	}
+	static getYaliWebUrl() {
+		return process.env.YALI_WEB_URL
+	}
+	static getYaliOnlineUrl() {
+		return process.env.YALI_ONLINE_URL
 	}
 }
