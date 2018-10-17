@@ -12,6 +12,11 @@ class BotRouter extends EventEmitter{
 			req.query['hub.verify_token'] === config.getHubVerifyToken() ? res.send(req.query['hub.challenge']) : res.send('Invalid verify token')
 		})
 		
+		// this.router.post('/webhook/jot', (req, res) => {
+		// 	console.log('inside jott', req)
+		// 	// req.query['hub.verify_token'] === config.getHubVerifyToken() ? res.send(req.query['hub.challenge']) : res.send('Invalid verify token')
+		// })
+
 		this.router.post('/webhook', (req, res) => {
 			let data = req.body
 			if(data.object === 'page') {

@@ -14,7 +14,6 @@ module.exports = class config {
 		return process.env.HUB_VERIFY_TOKEN
 	}
 	static getDialogflowId() {
-		// return process.env.DIALOG_FLOW_ID || 'cirt-50caa'
 		return process.env.DIALOG_FLOW_ID
 	}
 	static getYaliToken() {

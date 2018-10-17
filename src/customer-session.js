@@ -10,7 +10,9 @@ class customerSession {
   async getProfile(customerId) {
     return new Promise(function (resolve, reject) {
       messenger.getProfile({ id: customerId })
-        .then(profile => resolve(profile))
+        .then(profile =>{
+          resolve(profile)
+        })
         .catch(err => {
           console.log(`Error while getting user profile ${customerId}`)
           resolve(null)

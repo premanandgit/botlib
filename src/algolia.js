@@ -30,8 +30,33 @@ class Algolia {
 		});
 	}
 
-	async isRecyclable(text) {
-		let content = await this.search(text, "recycleIndex")
+	async searchFacet({query, indexName, facetFilters, filters}) {
+		return new Promise((resolve, reject) => {
+			let searchQuery = JSON.stringify({
+				query,
+				facetFilters,
+				filters
+			})
+
+			console.log("searchQuery ", searchQuery)
+			return this.getIndexByName(indexName).search(JSON.parse(searchQuery), (error, content) => {
+				if (error) {
+					console.log("My Error ", error)
+					return resolve(null)
+				} else {
+					return resolve(content)
+				}
+			})
+		});
+	}
+
+	async isRecyclable(text, facetFilters) {
+		let searchParams = {
+			query: text,
+			indexName: "recycleIndex",
+			facetFilters,
+		}
+		let content = await this.searchFacet(searchParams)
 		if (_.isEmpty(content || content.hits) || content.hits.length <= 0) {
 			return ({
 				recycle: null,
@@ -47,13 +72,13 @@ class Algolia {
 			})
 		}
 		else if (content.hits.length > 1) {
-			if(content.hits[0].item.toLowerCase() === text.toLowerCase()) {
-				return ({
-					recycle: content.hits[0].recycle === true ? true : false,
-					count: content.hits.length,
-					hits: content.hits
-				})
-			}
+			// if(content.hits[0].item.toLowerCase() === text.toLowerCase()) {
+			// 	return ({
+			// 		recycle: content.hits[0].recycle === true ? true : false,
+			// 		count: content.hits.length,
+			// 		hits: content.hits
+			// 	})
+			// }
 
 			return ({
 				recycle: null,
@@ -64,7 +89,9 @@ class Algolia {
 	}
 
 	async isValidZipcode(zipcode) {
+		console.log('zipcode', zipcode)
 		let content = await this.search(zipcode, "zipcodeIndex")
+		console.log('content', content)
 		if (_.isEmpty(content || content.hits) || content.hits.length <= 0)
 			return null;
 		else {
